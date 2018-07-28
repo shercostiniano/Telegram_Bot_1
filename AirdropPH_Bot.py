@@ -141,7 +141,7 @@ def faq(bot, update):
 		""")
 
 def main():
-	updater = Updater("655485042:AAFmWGTiqhzNyh0-FJX1myCtF5wf-VQJZYk")
+	updater = Updater("BOT FATHER TOKEN")
 	dp = updater.dispatcher
 	conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
